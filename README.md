@@ -1,0 +1,1 @@
+QR Cam Scanner Webapp
