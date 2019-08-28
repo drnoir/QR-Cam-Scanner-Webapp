@@ -70,7 +70,6 @@ margin-top:40px;
 }
 
 .header{
-background-image: url("../rusttex2.jpg");
 border-bottom: solid grey 4px;
 }
 
@@ -82,7 +81,6 @@ border-bottom: solid grey 4px;
 
 /* background texture menu */
 .rustmenu{
-background-image: url("../rusttex.jpg");
 background-size: cover;
 background-repeat: repeat-y;
 background-position: center;
