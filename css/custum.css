@@ -38,13 +38,6 @@ background-color:black;
 
 }
 
-.glow
-{
-    -webkit-box-shadow:0 0 50px green; 
-    -moz-box-shadow: 0 0 50px green; 
-    box-shadow:0 0 50px green;
-}
-
 #videoElement
 {
     width:100%;
@@ -73,22 +66,9 @@ margin-top:40px;
 border-bottom: solid grey 4px;
 }
 
-
 .id-image
 {
     float:right;
-}
-
-/* background texture menu */
-.rustmenu{
-background-size: cover;
-background-repeat: repeat-y;
-background-position: center;
-}
-
-.rustmenu a{
-color:white!important;
-font-weight:bolder;
 }
 
 /* spacing  */
