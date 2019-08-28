@@ -2,6 +2,18 @@
 <!-- A simple web application for scanning QR codes online using the Instascan library
 By Chris Godber-->
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146587638-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146587638-1');
+</script>
+
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custum.css">
     <link rel="stylesheet" href="css/labeldots.css">
@@ -14,9 +26,11 @@ By Chris Godber-->
     <!-- custum js -->
     <script src = "js/bootstrap.js"></script>
     <!-- tensorflow lib for image scanning -->
+    <!-- tensorflow lib for image scanning -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.2/dist/tf.min.js"></script>
     <!-- instascan cdn -->
-    <script type="text/javascript" src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+
   <!-- connect to adsense -->
   <script src = "js/load.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -58,25 +72,13 @@ By Chris Godber-->
         <h5><a href ="http://www.chrisgodber.co.uk">www.chrisgodber.co.uk</a></h5>
     </div>
     <div class = "col-sm padding">
-            <h5>Current Time:<span class = "time"></span></h5> 
+            <h5>Current Time (GMT):<span class = "time"></span></h5> 
     </div>
 
     <div class = "col-sm padding">
             <img src = "QR.png" class="img-fluid id-image" alt="Responsive image"/> 
     </div>
 </div>    
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- qrwebscan -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-0789209255261075"
-         data-ad-slot="2668878876"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 
 <!-- Info -->
     <div class = "row padding  bg-interface">
