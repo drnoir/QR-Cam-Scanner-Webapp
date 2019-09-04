@@ -43,7 +43,7 @@ By Chris Godber-->
 
 
     <meta charset="UTF-8">
-    <title>QR Image Scanner</title>
+    <title>QR Web Scan</title>
 </head>
 
 <body class = "bg-front">
@@ -52,14 +52,12 @@ By Chris Godber-->
     <audio class="audios" id="beep" controls preload="none" style="display:none;"> 
             <source src="sound/beep.mp3" type="audio/mp3">
     </audio>
-
-
  
 <div class ="container">
 <div class = "row header" >
 <!-- header with links and title-->  
     <div class = "col-sm padding"> 
-        <h2>QR Scanner</h2>
+        <h2>QR Web Scan</h2>
         <h5>By Chris Godber</a></h5> 
         <h5><a href ="http://www.chrisgodber.co.uk">www.chrisgodber.co.uk</a></h5>
     </div>
@@ -70,17 +68,17 @@ By Chris Godber-->
     <div class = "col-sm padding">
             <img src = "QR.png" class="img-fluid id-image" alt="Responsive image"/> 
     </div>
+    
 </div>    
 
 <!-- Info -->
     <div class = "row padding  bg-interface">
-       
+
        <h4 style = "text-align: center;">Put a QR code in front of your camera to scan it</h4>
        <p>Use your camera to scan for a QR code, once the app has found the QR code you will be redirected to its location 
        </p>
     
                 <video autoplay="true" id="videoElement">
-     
                 </video>
     </div>
 

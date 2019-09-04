@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- A simple web application for scanning QR codes online using the Instascan library
+By Chris Godber-->
+<head>
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custum.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+ 
+    <!-- main js lib -->
+    <script src = "js/jquery.js"></script>
+    <script src = "js/bootstrap.bundle.min.js"></script>
+    <!-- custum js -->
+    <script src = "js/bootstrap.js"></script>
+    <!-- tensorflow lib for image scanning -->
+    <!-- tensorflow lib for image scanning -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.2/dist/tf.min.js"></script>
+    <!-- instascan cdn -->
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+
+
+
+    <meta charset="UTF-8">
+    <title>QR Web Scan</title>
+</head>
+
+<body class = "bg-front">
+
+    <!-- load audio files -->
+    <audio class="audios" id="beep" controls preload="none" style="display:none;"> 
+            <source src="sound/beep.mp3" type="audio/mp3">
+    </audio>
+ 
+<div class ="container"><div class = "row header" >
+    <!-- header with links and title-->  
+        <div class = "col-sm padding"> 
+            <h2>QR Web Scan</h2>
+            <h5>By Chris Godber</a></h5> 
+            <h5><a href ="http://www.chrisgodber.co.uk">www.chrisgodber.co.uk</a></h5>
+        </div>
+        <div class = "col-sm padding">
+                <h5>Current Time (GMT):<span class = "time"></span></h5> 
+        </div>
+    
+        <div class = "col-sm padding">
+                <img src = "QR.png" class="img-fluid id-image" alt="Responsive image"/> 
+        </div>
+        <div class="row">   
+            <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                            <a class="nav-item nav-link" href="about.html">About</a>
+                            <a class="nav-item nav-link" href="index.html">QR Web Scan</a>
+                 
+                      </div>
+                    </div>
+                  </nav>
+        </div>  
+    </div>    
+
+<!-- Info -->
+    <div class = "row padding  bg-interface">
+       
+       <h4 style = "text-align: center;">QRWebScan - About</h4>
+       <p>QR Web Scan is a tool that allows you to scan QR codes from anywhere using the cam on your desktop computer or mobile.</p>
+       <p><strong></strong>Bootstrap, Vanilla js</p>
+    </div>
+
+<!--container -->
+</div>   
+
+</body>
+</html>
